@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Animal Quiz App</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="question_number">Quiz Question %1$d of %2$d</string>
+    <string name="number_of_guesses_title">Number Of Guesses</string>
+    <string name="number_of_guesses_summary">"Select number of guess options "</string>
+    <string name="animal_types_title">Types Of Animals</string>
+    <string name="animal_types_summary">Choose the type of animals to be included</string>
+    <string name="choose_bg_title">Choose Background Color</string>
+    <string name="choose_bg_summary">Pick a background color for the app</string>
+    <string name="default_background">White</string>
+    <string name="choose_font_title">Choose Text Font</string>
+    <string name="choose_font_summary">Select a custom font for the text</string>
+    <string name="default_font">Hold On.ttf</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="correct_answer">CORRECT!</string>
+    <string name="wrong_answer">Sorry, wrong answer!</string>
+    <string name="result_title">Congratulations!</string>
+    <string name="result_message">You have answered 10 questions in %1$d guesses!\nYour Score is: %2$.01f%%</string>
+    <string name="reset_quiz_button">RESET QUIZ</string>
+    <string name="animal_type_error">Error: Atleast one animal type must be selected</string>
+    <string name="default_animal_type">Wild_Animals</string>
+    <string name="changes_applied">Changes are saved and applied!</string>
+    <string name="image_desc">Animal Image</string>
+
+</resources>

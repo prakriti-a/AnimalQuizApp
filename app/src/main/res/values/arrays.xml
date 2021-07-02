@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="num_of_guesses_entries">
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+    </array>
+
+    <array name="num_of_guesses_entry_values">
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+    </array>
+
+    <string-array name="animal_types_entries">
+        <item>Wild Animals</item>
+        <item>Domestic Animals</item>
+    </string-array>
+
+    <string-array name="animal_types_entry_values">
+        <item>Wild_Animals</item>
+        <item>Domestic_Animals</item>
+    </string-array>
+
+    <string-array name="choose_bg_colors">
+        <item>White</item>
+        <item>Black</item>
+        <item>Green</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+    </string-array>
+
+    <string-array name="choose_font_entries">
+        <item>Hold On</item>
+        <item>Qabil Free Trial</item>
+        <item>Murberry</item>
+    </string-array>
+
+    <string-array name="choose_font_entry_values">
+        <item>Hold On.ttf</item>
+        <item>Qabil Free Trial.ttf</item>
+        <item>Murberry.ttf</item>
+    </string-array>
+
+</resources>

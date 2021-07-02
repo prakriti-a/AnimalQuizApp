@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainFragment"
+    tools:showIn="@layout/activity_main"
+    android:background="@color/white"
+    android:id="@+id/linearLayoutMainFragment">
+
+    <LinearLayout
+        android:id="@+id/fragmentLLFirstRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:layout_weight="1"
+            android:lines="2" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:layout_weight="1"
+            android:lines="2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fragmentLLSecondRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:layout_weight="1"
+            android:lines="2" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:layout_weight="1"
+            android:lines="2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fragmentLLThirdRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:layout_weight="1"
+            android:lines="2" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:layout_weight="1"
+            android:lines="2" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtQuestionNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/question_number"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/margin"
+        android:textSize="@dimen/size"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/imageAnimal"
+        android:layout_width="360dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:padding="@dimen/padding"
+        android:layout_margin="@dimen/margin"
+        android:contentDescription="@string/image_desc"/>
+
+    <TextView
+        android:id="@+id/txtAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_margin="@dimen/margin"
+        android:textSize="@dimen/size"
+        android:paddingBottom="@dimen/padding"
+        android:textStyle="bold"/>
+
+</LinearLayout>
